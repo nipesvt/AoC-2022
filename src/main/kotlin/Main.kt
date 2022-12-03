@@ -15,6 +15,10 @@ fun main() {
                 DayTwo().part1()
                 DayTwo().part2()
             }
+            "3" -> {
+                DayThree().part1()
+                DayThree().part2()
+            }
             else -> println("????? try again")
         }
     }

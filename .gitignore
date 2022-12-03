@@ -3,7 +3,8 @@
 .DS_Store
 # Log file
 *.log
-
+.idea/
+out/
 # Idea
 # BlueJ files
 *.ctxt
