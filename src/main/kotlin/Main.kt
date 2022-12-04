@@ -19,6 +19,10 @@ fun main() {
                 DayThree().part1()
                 DayThree().part2()
             }
+            "4" -> {
+                DayFour().part1()
+                DayFour().part2()
+            }
             else -> println("????? try again")
         }
     }
