@@ -1,3 +1,5 @@
+import main.kotlin.DayFive
+
 fun main() {
 
     println("Willkommen aus Advent Of Code 2022")
@@ -22,6 +24,10 @@ fun main() {
             "4" -> {
                 DayFour().part1()
                 DayFour().part2()
+            }
+            "5" -> {
+                DayFive().part1()
+                DayFive().part2()
             }
             else -> println("????? try again")
         }
