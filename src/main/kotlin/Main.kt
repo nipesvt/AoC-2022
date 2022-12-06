@@ -1,4 +1,5 @@
 import main.kotlin.DayFive
+import main.kotlin.DaySix
 
 fun main() {
 
@@ -28,6 +29,10 @@ fun main() {
             "5" -> {
                 DayFive().part1()
                 DayFive().part2()
+            }
+            "6" -> {
+                DaySix().part1()
+                DaySix().part2()
             }
             else -> println("????? try again")
         }
